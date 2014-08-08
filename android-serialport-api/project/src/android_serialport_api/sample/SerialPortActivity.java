@@ -93,6 +93,15 @@ public abstract class SerialPortActivity extends Activity {
 
 	protected abstract void onDataReceived(final byte[] buffer, final int size);
 
+    @Override
+    public void onPause() {
+		if (mReadThread != null)
+			mReadThread.interrupt();
+		mApplication.closeSerialPort();
+		mSerialPort = null;
+        super.onPause();
+
+    }
 	@Override
 	protected void onDestroy() {
 		if (mReadThread != null)
