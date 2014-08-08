@@ -8,7 +8,7 @@ LOCAL_PACKAGE_NAME := android-serialport-api
 
 LOCAL_SDK_VERSION := current
 #LOCAL_CERTIFICATE := platform
-LOCAL_JNI_SHARED_LIBRARIES := libserial_port
+LOCAL_JNI_SHARED_LIBRARIES := libserial_port_common
 
 include $(BUILD_PACKAGE)
 include $(call all-makefiles-under,$(LOCAL_PATH))

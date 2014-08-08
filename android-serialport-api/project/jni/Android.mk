@@ -19,7 +19,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := eng
 TARGET_PLATFORM := android-3
-LOCAL_MODULE    := libserial_port
+LOCAL_MODULE    := libserial_port_common
 LOCAL_SRC_FILES := SerialPort.c
 #LOCAL_LDLIBS    := -llog
 LOCAL_SHARED_LIBRARIES := libdl  liblog

@@ -115,6 +115,13 @@ public class LoopbackActivity extends SerialPortActivity {
 	}
 
     @Override
+    public void onResume() {
+        super.onResume();
+		if (mSerialPort != null) 
+			mSendingThread.start();
+    }
+
+    @Override
     public void onPause() {
 		if (mSendingThread != null)
 			mSendingThread.interrupt();
