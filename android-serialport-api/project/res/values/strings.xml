@@ -28,5 +28,21 @@ limitations under the License.\n
 		port.</string>
     <string name="error_unknown">The serial port can not be opened for an unknown
 		reason.</string>
+              
+    <string name="setup">Setup</string>
+    
+    <string name="console">Console</string>
+    <string name="loopback">Loopback</string>
+    <string name="send_01">Send 01010101</string>
+    <string name="sending_01">Sending 01010101...</string>
+    <string name="about">About</string>
+    <string name="quit">Quit</string>
+              
+    <string name="sent_bytes">Sent bytes</string>
+    <string name="lost_bytes">Lost bytes</string>
+    <string name="corrupted_bytes">Corrupted bytes</string>
+    <string name="sent_bytes_result">0</string>
+    
+    <string name="received_back">Received back</string>
 
 </resources>

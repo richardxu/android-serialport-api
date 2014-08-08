@@ -16,14 +16,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Sent bytes"
+            android:text="@string/sent_bytes"
             android:textSize="24px" />
 
         <TextView
             android:id="@+id/TextViewOutgoingValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
+            android:text="@string/sent_bytes_result"
             android:textSize="24px" />
     </LinearLayout>
 
@@ -38,14 +38,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Received back"
+            android:text="@string/received_back"
             android:textSize="24px" />
 
         <TextView
             android:id="@+id/TextViewIncomingValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
+            android:text="@string/sent_bytes_result"
             android:textSize="24px" />
     </LinearLayout>
 
@@ -59,14 +59,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Lost bytes"
+            android:text="@string/lost_bytes"
             android:textSize="24px" />
 
         <TextView
             android:id="@+id/textViewLostValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
+            android:text="@string/sent_bytes_result"
             android:textSize="24px" />
     </LinearLayout>
 
@@ -80,14 +80,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Corrupted bytes"
+            android:text="@string/corrupted_bytes"
             android:textSize="24px" />
 
         <TextView
             android:id="@+id/textViewCorruptedValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
+            android:text="@string/sent_bytes_result"
             android:textSize="24px" />
     </LinearLayout>
 
